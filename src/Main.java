@@ -10,7 +10,7 @@ public class Main {
         do {
             // Mostrar el menú
             System.out.println("\n--- MENÚ PRINCIPAL ---");
-            System.out.println("1. Mensaje editado por Ger");
+            System.out.println("1. Mensaje editado por G y viendo a ver");
             System.out.println("2. Sumar dos números");
             System.out.println("3. Mostrar fecha actual");
             System.out.println("4. Opción extra");
