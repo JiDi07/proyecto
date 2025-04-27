@@ -22,6 +22,7 @@ public class Main {
             opcion = sc.nextInt();
 
             // Evaluar opción
+            System.out.println("Opcion editada por Manu");
             switch (opcion) {
                 case 1:
                     mostrarMensaje();
@@ -46,9 +47,10 @@ public class Main {
             }
 
         } while (opcion != 0);
-
+        
         sc.close();
     }
+
 
     // FUNCIONES
     public static void mostrarMensaje() {
