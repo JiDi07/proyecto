@@ -9,20 +9,12 @@ public class Main {
 
         do {
             // Mostrar el menú
-            System.out.println("\n--- MENÚ PRINCIPAL ---");
-            System.out.println("1. Mensaje editado por G y viendo a ver");
-            System.out.println("2. Sumar dos números");
-            System.out.println("3. Mostrar fecha actual");
-            System.out.println("4. Opción extra");
-            System.out.println("5. Otra función");
-            System.out.println("0. Salir");
-            System.out.print("Selecciona una opción: ");
+            System.out.println("\r\n\r\n--- MENÚ PRINCIPAL ---\r\n1. Mensaje editado por G y viendo a ver\r\n2. Sumar dos números\r\n3. Mostrar fecha actual\r\n4. Opción extra\r\n5. Otra función\r\n0. Salir\r\nSelecciona una opción: ");
 
             // Leer opción
             opcion = sc.nextInt();
-
+1
             // Evaluar opción
-            System.out.println("Opcion editada por Manu");
             switch (opcion) {
                 case 1:
                     mostrarMensaje();
@@ -55,7 +47,7 @@ public class Main {
     // FUNCIONES
     public static void mostrarMensaje() {
         System.out.println("¡Hola! Esta es la opción 1.");
-    }
+    }1
 
     public static void sumarNumeros(Scanner sc) {
         System.out.print("Introduce el primer número: ");
