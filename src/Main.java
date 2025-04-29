@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,7 +11,7 @@ public class Main {
 
             // Leer opción
             opcion = sc.nextInt();
-1
+
             // Evaluar opción
             switch (opcion) {
                 case 1:
@@ -43,11 +41,10 @@ public class Main {
         sc.close();
     }
 
-
     // FUNCIONES
     public static void mostrarMensaje() {
         System.out.println("¡Hola! Esta es la opción 1.");
-    }1
+    }
 
     public static void sumarNumeros(Scanner sc) {
         System.out.print("Introduce el primer número: ");
